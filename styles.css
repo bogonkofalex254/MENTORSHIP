@@ -816,100 +816,6 @@ PARTINERS SECTION
 -----------------------------------------*/
 
 
-.partners-section {
-    padding: 5rem 1rem;
-    background-color: #ebdddd; /* Light background */
-    text-align: center;
-}
-
-.container {
-    max-width: 1200px; /* Max width for large screens */
-    margin: 0 auto; /* Center the container */
-}
-
-.section-title {
-    font-size: 3.5rem;
-    margin-bottom: 0.5rem;
-    color: var(--secondary-color);
-}
-
-.section-subtitle {
-    font-size: 2.1rem;
-    color: black;
-    margin-bottom: 3rem;
-}
-
-/* The Grid Layout */
-.partners-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
-    gap: .5rem; /* Space between grid items */
-    align-items: center; /* Vertical alignment */
-    justify-items: center; /* Horizontal alignment */
-}
-.partner-scroll-container {
-    overflow: hidden;
-    white-space: nowrap;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    padding: 10px 0;
-    background: white;
-  }
-  .partner-scroll {
-    display: inline-block;
-    padding-left: 100%;
-    animation: scroll-left 20s linear infinite;
-  }
-  .partner-scroll img {
-    height: 80px;
-    margin: 0 30px;
-    vertical-align: middle;
-  }
-  @keyframes scroll-left {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-/* Each Partner Item */
-.partner-item {
-    width: 100%;
-    transition: transform 0.3s ease; /* Smooth hover effect */
-}
-
-.partner-item:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
-}
-
-/* Logo Styling */
-.partner-logo {
-    max-width: 100%; /* Responsive width */
-    height: auto; /* Maintain aspect ratio */
-    max-height: 100px; /* Control logo height */
-    filter: grayscale(100%) opacity(0.7); /* Grayscale by default */
-    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
-}
-
-.partner-item:hover .partner-logo {
-    filter: grayscale(0%) opacity(1); /* Full color on hover */
-}
-
-/* Responsive Design for smaller devices */
-@media (max-width: 768px) {
-    .partners-grid {
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Smaller min size on mobile */
-        gap: 1.5rem;
-    }
-    
-    .section-title {
-        font-size: 2rem;
-    }
-    
-    .partner-logo {
-        max-height: 80px;
-    }
 }
 .partners-section {
   background: #f7f7f7;
@@ -1831,6 +1737,7 @@ PROFILES
 .profile-btn:hover {
     background: #0f3461;
 }
+
 
 
 
