@@ -821,6 +821,7 @@ PARTINERS SECTION
   padding: 40px 0;
   text-align: center;
 background: var(--secondary-color);
+	justify-content: center;
 
 }
 .partners-title {
@@ -1739,6 +1740,7 @@ PROFILES
 .profile-btn:hover {
     background: #0f3461;
 }
+
 
 
 
