@@ -911,6 +911,49 @@ PARTINERS SECTION
         max-height: 80px;
     }
 }
+.partners-section {
+  background: #f7f7f7;
+  padding: 40px 0;
+  text-align: center;
+}
+.partners-title {
+  margin-bottom: 30px;
+}
+.partners-title h2 {
+  color: #402d7c;
+  font-size: 2.8rem;
+  font-family: 'Georgia', serif;
+  margin-bottom: 5px;
+}
+.yellow-underline {
+  border: none;
+  height: 4px;
+  width: 120px;
+  background: #ffe152;
+  margin: 0 auto 15px auto;
+}
+.partners-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px 55px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.partners-logos img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  padding: 10px;
+  transition: transform 0.2s;
+}
+.partners-logos img:hover {
+  transform: scale(1.08);
+}
+
 /*---------------------------------------
   TESTIMONIAL CAROUSEL              
 -----------------------------------------*/
@@ -1788,6 +1831,7 @@ PROFILES
 .profile-btn:hover {
     background: #0f3461;
 }
+
 
 
 
